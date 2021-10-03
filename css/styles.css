@@ -19,6 +19,7 @@ body {
     flex-direction: column;
 }
 
+
 /* 1st sectioin */
 .logo,
 .title {
@@ -37,6 +38,7 @@ body {
 
 .title-description,
 .button,
+.text,
 a {
     font-size: 18px;
     color: #E5E7EB
@@ -48,7 +50,7 @@ a {
 }
 
 .navigation-bar {
-    padding: 20px 100px 0 100px;
+    padding: 20px 100px;
 
     display: flex;
     align-items: center;
@@ -62,7 +64,7 @@ a {
 
 
 .hero-1-header {
-    padding: 90px;
+    padding: 70px;
 
     display: flex;
     justify-content: center;
@@ -71,7 +73,6 @@ a {
 }
 
 .title-section {
-    min-width: 300px;
     width: 500px;
 
     display: flex;
@@ -136,6 +137,11 @@ a {
     gap: 8px;
 }
 
+.info .text {
+    color: black;
+}
+
+
 /* 3rd section */
 .herobox-3 {
     background-color: #E5E7EB;
@@ -197,6 +203,7 @@ a {
     border: 2px solid white;
 }
 
+
 /* footer */
 .herobox-footer {
     padding: 60px;
@@ -205,9 +212,4 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.herobox-footer .text {
-    font-size: 18px;
-    color: #E5E7EB;
 }
